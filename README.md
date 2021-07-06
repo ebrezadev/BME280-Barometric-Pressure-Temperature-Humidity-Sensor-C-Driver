@@ -1,1 +1,1 @@
-# BME280-Barometric-Pressure-Temperature-Humidity--Sensor-C-Driver
+# BMP280 Barometric Pressure, Temperature  and Humidity Sensor C Driver
