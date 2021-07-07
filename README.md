@@ -27,6 +27,6 @@ A full sensors reading could be done with:
 
 **sensors_t bme280_get_all(uint8_t deviceAddress)**
 
-The return value will be of custom type struct sensors_t, which consists of temperature, pressure, humidity and altitude. Device address is detected beforehand, using bmp280_init(). There are individual functions provided for custom readings and custom code.
+The return value will be of custom type struct sensors_t, which consists of temperature, pressure, humidity and altitude. Device address is detected beforehand, using bme280_init(). There are individual functions provided for custom readings and custom code.
 
 
