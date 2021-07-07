@@ -59,7 +59,7 @@ void bme280_set_temperature_accuracy(uint8_t deviceAddress, over_sampling_t osVa
 void bme280_set_humidity_accuracy(uint8_t deviceAddress, over_sampling_t osValue);
 void bme280_set_standby_time(uint8_t deviceAddress, standby_time_t standbyTime);
 void bme280_set_filter_coefficient(uint8_t deviceAddress, iir_filter_t filterCoefficient);
-void bme280_set(uint8_t deviceAddress, operation_mode_t operationMode, over_sampling_t tempOS, over_sampling_t pressureOS, standby_time_t standbyTime, iir_filter_t filterCoefficient);
+void bme280_set(uint8_t deviceAddress, operation_mode_t operationMode, over_sampling_t tempOS, over_sampling_t pressureOS, over_sampling_t humidityOS, standby_time_t standbyTime, iir_filter_t filterCoefficient);
 void bme280_set_default(uint8_t deviceAddress);
 int32_t bme280_get_temperature(uint8_t deviceAddress);
 uint32_t bme280_get_pressure(uint8_t deviceAddress);
